@@ -1,0 +1,49 @@
+{
+  "name": "mcp-ollama-beeai",
+  "version": "1.0.0",
+  "author": "Dilipan Somasundaram",
+  "license": "ISC",
+  "description": "A minimal client app to interact with OLLAMA models leveraging multiple MCP server tools using Beeai framework.",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "beeai-framework": "^0.1.10",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.1"
+  },
+  "keywords": [
+    "MCP",
+    "OLLAMA",
+    "LLAMA3",
+    "LLM",
+    "Agent",
+    "Tools",
+    "AgenticTools",
+    "MCPClient",
+    "MCPServer",
+    "ReAct",
+    "Beeai",
+    "BeeaiFramework",
+    "BeeaiClient",
+    "BeeaiServer",
+    "BeeaiTools",
+    "BeeaiLLM",
+    "BeeaiAgent",
+    "BeeaiAgenticTools",
+    "BeeaiMCP",
+    "BeeaiMCPClient",
+    "BeeaiMCPServer",
+    "BeeaiMCPTools",
+    "BeeaiMCPLLM",
+    "BeeaiMCPAgent",
+    "BeeaiMCPAgenticTools",
+    "BeeaiMCPReAct",
+    "BeeaiMCPReActTools"
+  ]
+}
