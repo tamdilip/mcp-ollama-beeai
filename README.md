@@ -3,7 +3,7 @@ A minimal client app to interact with local [OLLAMA](https://ollama.com/) models
 
 > Below is a sample visual of this client app with chat interface, displaying the postgres database operation performed with thinking steps the AI has taken to use the right MCP agent and tranforming the request & response with LLM:
 
-![Demo Picture](https://raw.githubusercontent.com/tamdilip/mcp-ollama-beeai/refs/heads/main/docs/demo-pic.png)
+<video controls loop muted poster="https://raw.githubusercontent.com/tamdilip/mcp-ollama-beeai/refs/heads/main/docs/demo-pic.png"  src="https://raw.githubusercontent.com/tamdilip/mcp-ollama-beeai/refs/heads/main/docs/demo-video.mp4" title="Title"></video>
 
 ## Usage
 
@@ -46,6 +46,7 @@ If you want to use a different LLM model and LLM server, override the below prop
 ``` 
 
 Once the app is up and running, hit in Browser -> http://localhost:3000
+
 
 #### Additional Context:
 - By default on landing no MCP agent is referred for the questions.
